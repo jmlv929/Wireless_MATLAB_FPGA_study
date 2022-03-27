@@ -1,0 +1,48 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = D:\work\ISE\c7
+SET speedgrade = -12
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc4vsx35
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff668
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = virtex4
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT Distributed_Memory_Generator family Xilinx,_Inc. 2.1
+# END Select
+# BEGIN Parameters
+CSET reset_qspo=false
+CSET coefficient_file=no_coe_file_loaded
+CSET reset_qdpo=false
+CSET dual_port_address=non_registered
+CSET common_output_ce=false
+CSET memory_type=srl16_based
+CSET depth=16
+CSET ce_overrides=ce_overrides_sync_controls
+CSET data_width=16
+CSET default_data=0
+CSET component_name=lut16_core
+CSET single_port_output_clock_enable=false
+CSET qualify_we_with_i_ce=false
+CSET common_output_clk=false
+CSET default_data_radix=16
+CSET output_options=non_registered
+CSET dual_port_output_clock_enable=false
+CSET sync_reset_qspo=false
+CSET input_options=non_registered
+CSET input_clock_enable=false
+CSET sync_reset_qdpo=false
+# END Parameters
+GENERATE
+

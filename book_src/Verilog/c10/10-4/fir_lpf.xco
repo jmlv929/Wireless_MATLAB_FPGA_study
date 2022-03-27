@@ -1,0 +1,47 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = C:\work\ISE\c10
+SET speedgrade = -12
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc4vsx35
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff668
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = virtex4
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT MAC_FIR_Filter family Xilinx,_Inc. 5.1
+# END Select
+# BEGIN Parameters
+CSET create_rpm=False
+CSET filter_type=Single_Rate
+CSET coefficient_file=C:\work\ISE\c10\coeff1.coe
+CSET input_sample_rate=0.032
+CSET coefficient_buffer_type=Block_Memory
+CSET taps=16
+CSET performance_optimization=Auto_Performance
+CSET impulse_response=Symmetric
+CSET data_width=16
+CSET decimation_factor=1
+CSET coefficient_type=Signed
+CSET system_clock_rate=10
+CSET number_of_coefficient_sets=1
+CSET registered_output=True
+CSET component_name=fir_lpf
+CSET interpolation_factor=1
+CSET coefficient_width=16
+CSET channels=1
+CSET data_buffer_type=Block_RAM
+CSET data_type=Signed
+# END Parameters
+GENERATE
+

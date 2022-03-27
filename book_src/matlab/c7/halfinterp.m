@@ -1,0 +1,9 @@
+function out = halfinterp(n,fp,l,x)
+b = firhalfband(n,fp,'dev');%firhalfband(n,fp);   %半带滤波器系数
+hf = mfilt.firinterp(l,b);     %使用半带滤波器设计一个多相插值滤波器
+x_real = real(x);
+x_imag = imag(x);
+out_real = filter(hf,x_real); %实部和虚部分开滤波
+out_imag = filter(hf,x_imag);
+outt = (double(out_real) + j*double(out_imag));
+out=outt*sqrt(var(x)/var(outt));  %使得输入和输出的功率相同以便比较

@@ -1,0 +1,45 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = D:\work\ISE\c7
+SET speedgrade = -12
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc4vsx35
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff668
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = virtex4
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT Multiply_Accumulator family Xilinx,_Inc. 4.0
+# END Select
+# BEGIN Parameters
+CSET b_width=16
+CSET a_width=16
+CSET mac_count=16
+CSET clock_frequency=61.44
+CSET has_reset=false
+CSET has_mult_pipeline_register=true
+CSET has_mult_output_register=false
+CSET has_clock_enable=false
+CSET a_type=Signed
+CSET component_name=rcf_dsp48
+CSET use_embedded_mult=Embedded
+CSET round_operation=Convergent
+CSET has_output_register=false
+CSET b_type=Signed
+CSET result_width=36
+CSET has_mult_input_register=false
+CSET auto_pipeline=true
+CSET enable_rlocs=false
+# END Parameters
+GENERATE
+

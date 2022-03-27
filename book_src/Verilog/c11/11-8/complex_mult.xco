@@ -1,0 +1,37 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = C:\work\ISE\c11
+SET speedgrade = -12
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc4vsx35
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff668
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = virtex4
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT Complex_Multiplier family Xilinx,_Inc. 2.1
+# END Select
+# BEGIN Parameters
+CSET b_width=16
+CSET a_width=16
+CSET pipe_in=false
+CSET p_width=16
+CSET optimize=Number_Of_xTremeDSP_Slice_Used
+CSET component_name=complex_mult
+CSET pipe_out=true
+CSET round=Truncate_Results
+CSET sclr=false
+CSET pipe_mid=true
+# END Parameters
+GENERATE
+

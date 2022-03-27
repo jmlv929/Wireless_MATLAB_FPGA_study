@@ -1,0 +1,43 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = D:\work\ISE\c11
+SET speedgrade = -12
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc4vsx35
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff668
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = virtex4
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT Divider_Generator family Xilinx,_Inc. 1.0
+# END Select
+# BEGIN Parameters
+CSET aclr=false
+CSET ce=false
+CSET sclrce_priority=SCLR_overrides_CE
+CSET remainder_type=Remainder
+CSET divisor_width=16
+CSET algorithm_type=Fixed
+CSET clocks_per_division=1
+CSET exponent_bias=0
+CSET component_name=div16
+CSET fractional_width=16
+CSET latency=1
+CSET dividend_width=16
+CSET operand_sign=Unsigned
+CSET sclr=false
+CSET mantissa_width=8
+CSET exponent_width=8
+# END Parameters
+GENERATE
+

@@ -1,0 +1,52 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = D:\work\ISE\c13
+SET speedgrade = -12
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc4vsx35
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff668
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = virtex4
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT Adder_Subtracter family Xilinx,_Inc. 7.0
+# END Select
+# BEGIN Parameters
+CSET create_rpm=true
+CSET output_width=18
+CSET async_init_value=0
+CSET synchronous_settings=clear
+CSET clock_enable=false
+CSET bypass=false
+CSET asynchronous_settings=none
+CSET ce_overrides=sync_controls_override_ce
+CSET ce_override_for_bypass=true
+CSET set_clear_priority=clear_overrides_set
+CSET overflow_output=false
+CSET port_b_width=18
+CSET port_b_constant_value=0
+CSET port_a_width=18
+CSET component_name=adder_18vs18
+CSET carry_borrow_output=false
+CSET latency=1
+CSET operation=add_subtract
+CSET carry_borrow_input=false
+CSET port_a_sign=signed
+CSET bypass_sense=active_high
+CSET output_options=registered
+CSET port_b_constant=false
+CSET sync_init_value=0
+CSET port_b_sign=signed
+# END Parameters
+GENERATE
+

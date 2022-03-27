@@ -1,0 +1,52 @@
+# BEGIN Project Options
+SET flowvendor = Foundation_iSE
+SET vhdlsim = True
+SET verilogsim = True
+SET workingdirectory = D:\work\ISE\c5
+SET speedgrade = -12
+SET simulationfiles = Behavioral
+SET asysymbol = True
+SET addpads = False
+SET device = xc4vsx35
+SET implementationfiletype = Edif
+SET busformat = BusFormatAngleBracketNotRipped
+SET foundationsym = False
+SET package = ff668
+SET createndf = False
+SET designentry = VHDL
+SET devicefamily = virtex4
+SET formalverification = False
+SET removerpms = False
+# END Project Options
+# BEGIN Select
+SELECT CORDIC family Xilinx,_Inc. 3.0
+# END Select
+# BEGIN Parameters
+CSET compensation_scaling=No_Scale_Compensation
+CSET create_rpm=true
+CSET aclr=false
+CSET output_width=17
+CSET ce=true
+CSET x_out=true
+CSET iterations=0
+CSET phase_output=false
+CSET coarse_rotation=false
+CSET functional_selection=Square_Root
+CSET architectural_configuration=Parallel
+CSET pipelining_mode=Maximum
+CSET nd=false
+CSET register_outputs=true
+CSET y_out=false
+CSET round_mode=Nearest_Even
+CSET component_name=sqrt
+CSET data_format=UnsignedInteger
+CSET synchronization_enable=No_Override
+CSET precision=0
+CSET sclr=true
+CSET input_width=32
+CSET phase_format=Radians
+CSET register_inputs=true
+CSET rdy=false
+# END Parameters
+GENERATE
+
