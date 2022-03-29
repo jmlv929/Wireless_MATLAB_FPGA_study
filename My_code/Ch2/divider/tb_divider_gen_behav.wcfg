@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_divider_gen_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_divider_gen" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1405000001fs"></ZoomEndTime>
+      <Cursor1Time time="502753000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="210"></NameColumnWidth>
+      <ValueColumnWidth column_width="191"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wave_markers>
+      <marker time="5000000" label="" />
+      <marker time="95000000" label="" />
+      <marker time="815000000" label="" />
+      <marker time="905000000" label="" />
+      <marker time="1115000000" label="" />
+      <marker time="1205000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/tb_divider_gen/aclk" type="logic">
+      <obj_property name="ElementShortName">aclk</obj_property>
+      <obj_property name="ObjectShortName">aclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_divider_gen/s_axis_dividend_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_dividend_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_divider_gen/s_axis_dividend_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_dividend_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_dividend_tdata[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_divider_gen/s_axis_divisor_tvalid" type="logic">
+      <obj_property name="ElementShortName">s_axis_divisor_tvalid</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_divider_gen/s_axis_divisor_tdata" type="array">
+      <obj_property name="ElementShortName">s_axis_divisor_tdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">s_axis_divisor_tdata[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_divider_gen/m_axis_dout_tvalid" type="logic">
+      <obj_property name="ElementShortName">m_axis_dout_tvalid</obj_property>
+      <obj_property name="ObjectShortName">m_axis_dout_tvalid</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_divider_gen/quotient" type="array">
+      <obj_property name="ElementShortName">quotient[7:0]</obj_property>
+      <obj_property name="ObjectShortName">quotient[7:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_divider_gen/remainder" type="array">
+      <obj_property name="ElementShortName">remainder[5:0]</obj_property>
+      <obj_property name="ObjectShortName">remainder[5:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>
